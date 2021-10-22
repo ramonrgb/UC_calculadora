@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   results: {
     flex: 2,
     justifyContent: "center",
-    backgroundColor: "#f5f5f5"
+    backgroundColor: "#2a0d41"
   },
   resultText: {
     color: "#282F38",
@@ -116,17 +116,18 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    backgroundColor: '#4b0082',
   },
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#4b0082',
     alignItems: 'center',
     justifyContent: 'center',
-    minWidth: 90, 
-    minHeight: 90,
+    minWidth: 101, 
+    minHeight: 101,
     flex: 2,
   },
   textButton: {
-    color: "#7c7c7c",
+    color: "#ffffff",
     fontSize: 20,
   } 
 });
